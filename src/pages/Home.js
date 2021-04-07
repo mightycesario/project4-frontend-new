@@ -1,9 +1,17 @@
 import React from 'react'
+import { render } from '@testing-library/react'
+import {Link} from 'react-router-dom'
 
-export default function Home() {
+const Home = () => {
+    
   return (
     <div>
-      <h1>Welcome to PlayerList.biz</h1>
+      <h1>forsale</h1>
+      <h1>
+        <Link to="/players">players</Link>
+      </h1>
     </div>
   )
 }
+
+export default Home

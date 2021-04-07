@@ -4,9 +4,9 @@ import Home from '../pages/Home'
 import PlayerList from '../pages/PlayerList'
 
 export default (
-  <Switch >
+  <Switch>
     <Route exact path="/" component={Home}></Route>
     <Route path="/players" component={PlayerList}></Route>
-  </Switch>
+  </Switch> 
 )
 
