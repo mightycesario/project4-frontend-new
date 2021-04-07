@@ -1,15 +1,32 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0;  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.logo {
+  color:orange;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;  
+}
+
+header a {
+  text-decoration: none;
+  color:teal;
+}
+
+.component-content {
+  border:1px solid black;
+  display:inline-block;
+  width: 600px;
+  height: 200px;
+  margin: 10px;
 }
 
 /* ------------------------------------------------
@@ -56,7 +73,7 @@ a  {
   color: #95a5a6;
   font-size: 1.3em;
   font-weight: bold;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-decoration: none;
   display: inline-block;
   line-height: 2;
@@ -88,11 +105,11 @@ h1 {
     outline: none;
     padding: 1.018em 1.2em;
     color: #fff;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     transition: all 0.3s;
     font-size: 0.8em;
     text-align: center;
-  background-color: #444;
+  background-color: #ea9431;
   cursor: pointer;
 }
 
@@ -163,17 +180,18 @@ li a {
   color: #95a5a6;
   font-size: 0.8em;
   font-weight: bold;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   display: block;
   margin-left: 2em;
   float: right;
   text-decoration: none;
-  line-height: 2;
+  line-height: 30px;
 }
 
 li:hover a:hover {
   text-decoration: underline;
 }
+
 
 .item {
   margin-left: 10px;
@@ -196,7 +214,7 @@ ul input[type="checkbox"] {
  */
 /* ------------------------------------------------
   C O U N T   W R A P P E R
----------------------------------------------------*/
+--------------------------For Sale-------------------------*/
 .count-wrapper {
   border-top: 1px solid #e5e5e5;
   padding-top: 1.5em;
@@ -208,7 +226,7 @@ ul input[type="checkbox"] {
   color: #95a5a6;
   font-size: .8em;
   font-weight: bold;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin: 0 0 1.2em;
 }
 
@@ -235,4 +253,9 @@ ul input[type="checkbox"] {
 ---------------------------------------------------*/
 @media only screen and (max-width: 817px) {
   
+}
+
+
+body, h1 {
+  font-family: Arial
 }
